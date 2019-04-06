@@ -153,6 +153,10 @@ PRODUCT_COPY_FILES += \
     vendor/lineage/prebuilt/common/magisk_18_1.zip:system/addon.d/magisk.zip 
 ##
 
+# Magisk Manager
+PRODUCT_PACKAGES += \
+    MagiskManager
+
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
