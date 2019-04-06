@@ -147,6 +147,12 @@ PRODUCT_PACKAGES += \
     WallpaperPicker \
     WeatherProvider
 
+##
+# Copy Magisk zip
+PRODUCT_COPY_FILES += \
+    vendor/lineage/prebuilt/common/magisk_18_1.zip:system/addon.d/magisk.zip 
+##
+
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
