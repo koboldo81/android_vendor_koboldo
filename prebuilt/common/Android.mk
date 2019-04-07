@@ -19,6 +19,26 @@ LOCAL_MODULE_CLASS := APPS
 LOCAL_CERTIFICATE := PRESIGNED
 include $(BUILD_PREBUILT)
 
+include $(CLEAR_VARS)
+LOCAL_MODULE := Amaze
+LOCAL_MODULE_OWNER := koboldo
+LOCAL_SRC_FILES := app/$(LOCAL_MODULE)_3_3_2.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := PRESIGNED
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := VinylMusic
+LOCAL_MODULE_OWNER := koboldo
+LOCAL_SRC_FILES := app/$(LOCAL_MODULE)_0_20_1.apk
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_MODULE_CLASS := APPS
+LOCAL_CERTIFICATE := PRESIGNED
+include $(BUILD_PREBUILT)
+
 ################################
 # Copies the APN list file into system/etc for the product as apns-conf.xml.
 # In the case where $(CUSTOM_APNS_FILE) is defined, the content of $(CUSTOM_APNS_FILE)

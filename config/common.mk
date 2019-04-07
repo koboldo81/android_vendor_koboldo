@@ -157,6 +157,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     MagiskManager
 
+# Prebuilt Apps
+PRODUCT_PACKAGES += \
+    Amaze \
+    VinylMusic
+
 # Exchange support
 PRODUCT_PACKAGES += \
     Exchange2
