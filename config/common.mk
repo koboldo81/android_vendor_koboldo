@@ -153,7 +153,7 @@ PRODUCT_PACKAGES += \
 ##
 # Copy Magisk zip
 PRODUCT_COPY_FILES += \
-    vendor/lineage/prebuilt/common/magisk_18_1.zip:system/addon.d/magisk.zip 
+    vendor/lineage/prebuilt/common/magisk_19_1.zip:system/addon.d/magisk.zip 
 ##
 
 # Magisk Manager
